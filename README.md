@@ -37,3 +37,25 @@ Node.js® is a free, open-source, cross-platform JavaScript runtime environment 
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor>
 
 ## Node.js Basics
+
+_How the web works_
+
+- _HTTP_: Hyper Text Transfer Protocol, A protocol for transferring data which is understood by browser and server
+- _HTTPS_: Hyper Text Transfer Protocol Secure, HTTP + Data encryption (During transmission)
+
+_Core modules_
+
+- **http:** A Node.js module used to create HTTP servers and handle HTTP requests and responses.
+- **https:** A Node.js module like http, but supports secure communication using SSL/TLS.
+- **fs:** The Node.js File System module that enables interaction with the file system, such as reading and writing files.
+- **path:** A Node.js module for working with file and directory paths in a platform-independent way.
+- **os:** A Node.js module that provides information about the operating system, such as memory, CPU, and platform details.
+
+**Event Loop:**
+
+- The Node.js event loop is a single-threaded mechanism that handles asynchronous operations by offloading tasks and executing their callbacks in phases to ensure non-blocking I/O.
+- Keeps on running as long as there are event listeners registered
+
+_Creating a node server_ ?????
+
+36. Understanding Event Driven Code Execution ?
