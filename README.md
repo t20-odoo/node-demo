@@ -1,16 +1,60 @@
-# node-demo
+# NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)
 
-## Introduction
+_Master Node JS & Deno.js, build REST APIs with Node.js, GraphQL APIs, add Authentication, use MongoDB, SQL & much more!_
+
+## Section 1: Introduction
+
+#### 1. Introduction
+
+#### 2. What is Node.js?
 
 _What is a Node.js_ <https://nodejs.org/en>
 
 Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.
 
+#### 4. Installing Node.js and Creating our First App
+
 `node -v`: Displays the currently installed version of Node.js.
+
+#### 9. Working with the REPL vs Using Files
 
 **REPL (Read-Eval-Print Loop)**: An interactive shell for running and testing Node.js code line by line.
 
-## JavaScript - A Quick Refresher
+---
+
+## Section 2: Optional: JavaScript - A Quick Refresher
+
+#### 11. Module Introduction
+
+#### 12. JavaScript in a Nutshell
+
+#### 13. Refreshing the Core Syntax
+
+#### 14. let & const
+
+#### 15. Understanding Arrow Functions
+
+#### 16. Working with Objects, Properties & Methods
+
+#### 17. Arrays & Array Methods
+
+#### 18. Arrays, Objects & Reference Types
+
+#### 19. Understanding Spread & Rest Operators
+
+#### 20. Destructuring
+
+#### 21. Async Code & Promises
+
+#### 22. Template Literals
+
+#### 23. Wrap Up
+
+#### 24. Useful Resources & Links
+
+<https://academind.com/learn/javascript>
+
+---
 
 **Callback:** A callback is a function passed as an argument to another function
 
@@ -36,12 +80,20 @@ Node.js® is a free, open-source, cross-platform JavaScript runtime environment 
 
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor>
 
-## Node.js Basics
+---
+
+## Section 3: Understanding the Basics
+
+#### 25. Module Introduction
+
+#### 26. How The Web Works
 
 _How the web works_
 
 - _HTTP_: Hyper Text Transfer Protocol, A protocol for transferring data which is understood by browser and server
 - _HTTPS_: Hyper Text Transfer Protocol Secure, HTTP + Data encryption (During transmission)
+
+#### 27. Creating a Node Server
 
 _Core modules_
 
@@ -51,11 +103,23 @@ _Core modules_
 - **path:** A Node.js module for working with file and directory paths in a platform-independent way.
 - **os:** A Node.js module that provides information about the operating system, such as memory, CPU, and platform details.
 
-**Event Loop:**
+#### 28. The Node Lifecycle & Event Loop
 
 - The Node.js event loop is a single-threaded mechanism that handles asynchronous operations by offloading tasks and executing their callbacks in phases to ensure non-blocking I/O.
 - Keeps on running as long as there are event listeners registered
 
-_Creating a node server_ ?????
+#### 29. Controlling the Node.js Process
 
-36. Understanding Event Driven Code Execution ?
+#### 30. Understanding Requests
+
+#### 31. Sending Responses
+
+#### 32. Request & Response Headers
+
+#### 33. Routing Requests
+
+#### 34. Redirecting Requests
+
+#### 35. Parsing Request Bodies
+
+#### 36. Understanding Event Driven Code Execution ?????
